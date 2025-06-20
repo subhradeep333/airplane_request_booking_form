@@ -1,0 +1,66 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #c8f7c5, #a1e3b1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container Styling */
+div {
+    background: white;
+    padding: 50px 70px;
+    border-radius: 20px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    position: relative;
+    width: 90%;
+    max-width: 500px;
+}
+
+/* Tick Icon */
+div::before {
+    content: "✔";
+    color: #2e7d32;
+    font-size: 60px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+/* Marquee Text */
+marquee p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2e7d32;
+    margin-bottom: 40px;
+}
+
+/* Button Styling */
+button {
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    padding: 14px 30px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #1b5e20;
+    transform: scale(1.05);
+}
+
+/* Remove underline from anchor */
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles_sheet.css">
+    <title>Airplane Request Form</title>
+</head>
+
+<body>
+    <form action="submit.html" method="get">
+        <header>
+            <h1>AIR TICKET BOOKING REQUEST FORM</h1>
+            <!-- this image logo should be right corner in the same line of the AIR TICKET BOOKING REQUEST FORM
+            and the business logo image is to be in the right hand side of the page in the alignment of AIR TICKET BOOKING REQUEST FORM -->
+            <img src="img/logo.png.png" alt="" width="250">
+            <img src="img/business logo.png.png" alt="" width="250">
+        </header>
+        <main>
+            <div>
+                <div class="section-header">
+                    <h2>CUSTOMER DATA</h2>
+                    <a href="video.html" class="btn tutorial-btn">📽️ Tutorial</a>
+                </div>
+            </div>
+            <br>
+            <label for="date">Booking Date</label>
+            <input type="date">
+            <br>
+            <label for="name">First Name</label>
+            <input type="text" id="name" placeholder="Enter your name">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" placeholder="Enter your name">
+            <label for="telephone">Telephone</label>
+            <input type="tel" id="telephone" placeholder="Enter your number" pattern="[0-9]">
+            <br>
+            <label for="address">Address</label>
+            <input type="text" id="address" placeholder="Enter your Address" size="59">
+            <br>
+            <label for="city">City</label>
+            <input type="text" id="city" placeholder="Enter your city">
+            <label for="code">Postal Code</label>
+            <input type="text" id="code" placeholder="Enter your name">
+            <label for="fax">Fax</label>
+            <input type="text" id="fax" placeholder="">
+            <br>
+            <label for="country">Country</label>
+            <input type="text" id="country" placeholder="Enter your Country" size="59">
+            <label for="email">E-mail</label>
+            <input type="text" id="email" placeholder="">
+            </div>
+            <h2>ITINERARY</h2>
+            <div>
+                <label for="onetrip">One-way trip</label>
+                <input type="checkbox" required>
+                <br>
+                <label for="ddate">Departing date</label>
+                <input type="date" id="ddate" placeholder="">
+                <label for="fno">Flight number</label>
+                <input type="number" id="fno" placeholder="">
+                <label for="class">Class</label>
+                <input type="text" id="class" placeholder="">
+                <br>
+                <label for="f">Form</label>
+                <input type="text" id="f" placeholder="current place" size="59">
+                <label for="class">To</label>
+                <input type="text" id="class" placeholder="place to visit">
+                <br>
+                <label for="rt">Round trip</label>
+                <input type="checkbox" id="rt">
+                <br>
+                <label for="comments">Comment field</label>
+                <br>
+                <textarea id="comments" name="comments" rows="4" cols="50"
+                    placeholder="Write your comment here..."></textarea>
+            </div>
+            <div>
+                <h2>PASSENGERS</h2>
+                <table>
+                    <tr>
+                        <th>No.</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Passport data(Series,Number,Date of Expiry)</th>
+                        <th>Expiration Date of Exit Vsia</th>
+                        <th>Date of Birth</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><input type="text" name="" id=""></td>
+                        <td><input type="text" name="" id=""></td>
+                        <td><input type="text" name="" id=""></td>
+                        <td><input type="date" name="" id=""></td>
+                        <td><input type="date" name="" id=""></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><input type="text" name="" id=""></td>
+                        <td><input type="text" name="" id=""></td>
+                        <td><input type="text" name="" id=""></td>
+                        <td><input type="date" name="" id=""></td>
+                        <td><input type="date" name="" id=""></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td><input type="text" name="" id=""></td>
+                        <td><input type="text" name="" id=""></td>
+                        <td><input type="text" name="" id=""></td>
+                        <td><input type="date" name="" id=""></td>
+                        <td><input type="date" name="" id=""></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td><input type="text" name="" id=""></td>
+                        <td><input type="text" name="" id=""></td>
+                        <td><input type="text" name="" id=""></td>
+                        <td><input type="date" name="" id=""></td>
+                        <td><input type="date" name="" id=""></td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td><input type="text" name="" id=""></td>
+                        <td><input type="text" name="" id=""></td>
+                        <td><input type="text" name="" id=""></td>
+                        <td><input type="date" name="" id=""></td>
+                        <td><input type="date" name="" id=""></td>
+                    </tr>
+                </table>
+                <label for="comments">Note</label>
+                <br>
+                <textarea id="comments" name="comments" rows="4" cols="50">
+            </textarea>
+                <br>
+                <!-- make delevary and deliveryaddress side side -->
+                <h2>DELIVERY DETAILS</h2>
+                <div class="delivery-wrapper">
+                    <div class="delivery-left">
+                        <label for="dod">Date Of Delivery</label>
+                        <input type="date" id="dod" placeholder="">
+                    </div>
+                    <div class="delivery-right">
+                        <label for="delivery-address">Delivery Address</label>
+                        <textarea id="delivery-address" name="delivery-address" rows="4"
+                            placeholder="Enter delivery address here..."></textarea>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+        <footer>
+            <div>
+                <p>Dear Ladies and Gentlemen! Be advised that,
+                    if the booking request has been annulled after the ticket
+                    issuance, the possible fee to the Air Company shall be paid
+                    by customer, irrespective of whether</p>
+                <!-- or not the ticket was actually received.</pre>
+                    keep this buttons in the right side of the page first print then below send -->
+                <center>
+                    <a href="print.html" class="btn">Print</a>
+                    <br>
+                    <a href="submit.html">
+                        <button>Submit</button>
+                    </a>
+                </center>
+            </div>
+        </footer>
+    </form>
+</body>
+
+</html>
