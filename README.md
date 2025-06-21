@@ -16,6 +16,5 @@ A responsive and modern **Air Ticket Booking Request Form** created using HTML a
 ---
 
 ## 🖼️ Project Previews
-<img src="./assets/"
+<img src="./assets/Airplane Request Form - Google Chrome 2025-06-22 00-22-02.gif"/>
 
-### 📝 Booking Form
